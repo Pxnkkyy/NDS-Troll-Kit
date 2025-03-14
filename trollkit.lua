@@ -49,3 +49,10 @@ local Button = MainTab:CreateButton({
             end)
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "TPUA",
+   Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/evilionx3/kawaii-magnet-part-claim-edition/refs/heads/main/kawaiimagnet"))() 
+   end,
+})
